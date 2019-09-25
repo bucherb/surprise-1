@@ -16,7 +16,6 @@ echo save-$name
 kcreator \
   -g 1 \
   --job-name $name \
-  -i daniilidislab472/curiosity:test \
   -w /NAS/home/surprise \
   -nc 1 \
   -b 48 \
@@ -30,7 +29,6 @@ echo save-$name2
 kcreator \
   -g 1 \
   --job-name $name2 \
-  -i daniilidislab472/curiosity:test \
   -w /NAS/home/surprise \
   -nc 1 \
   -b 48 \
@@ -44,7 +42,6 @@ echo save-$name3
 kcreator \
   -g 1 \
   --job-name $name3 \
-  -i daniilidislab472/curiosity:test \
   -w /NAS/home/surprise \
   -nc 1 \
   -b 48 \
@@ -58,7 +55,6 @@ echo save-$name4
 kcreator \
   -g 1 \
   --job-name $name4 \
-  -i daniilidislab472/curiosity:test \
   -w /NAS/home/surprise \
   -nc 1 \
   -b 48 \
